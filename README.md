@@ -11,6 +11,11 @@ Create a button per observable that subscribes to the observable when clicked. D
 
 As an additional challenge, figure out how to create a hot observable and subscribe to it. Make sure you understand the difference between hot and cold observables.
 
+
+<video controls>
+  <source src="Observables.mp4" type="video/mp4" />
+</video>
+
 ## Stopwatch component
 
 Use the knowledge of observables to create a stopwatch component. The stopwatch should have the following functionalities:
@@ -20,6 +25,11 @@ Use the knowledge of observables to create a stopwatch component. The stopwatch 
 - Lap: Record the current time and display it in a list below the stopwatch.
 
 Use reactive programming to implement the stopwatch functionalities. You can use the `interval` function to create an observable that emits a number every second.
+
+<video controls>
+  <source src="Stopwatch.mp4" type="video/mp4" />
+</video>
+
 
 ### Click Component
 
@@ -53,6 +63,9 @@ Below is a breakdown of how this component works:
 5. **Debounced Updates:**
    - Both the size and color of the box are updated after a 500ms delay following the last click. This prevents rapid updates and ensures smoother transitions.
 
+<video controls>
+  <source src="Resize.mp4" type="video/mp4" />
+</video>
 
 ### Search Component
 
@@ -82,3 +95,7 @@ The SearchComponent allows users to search for countries in real-time by typing 
 - The response from the API (an array of countries) is assigned to the countries array.
 - The component automatically updates the view to display the list of matching countries.
 - The component automatically updates the view to display the list of matching countries.
+
+<video controls>
+  <source src="SearchDebounce.mp4" type="video/mp4" />
+</video>
