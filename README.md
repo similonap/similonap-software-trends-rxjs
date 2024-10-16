@@ -91,4 +91,4 @@ The SearchComponent allows users to search for countries in real-time by typing 
 - The component automatically updates the view to display the list of matching countries.
 - The component automatically updates the view to display the list of matching countries.
 
-Link video: [Search Debounce](./SearchDebounce.mp4)
+Link video: [Search Debounce](SearchDebounce.mp4)
