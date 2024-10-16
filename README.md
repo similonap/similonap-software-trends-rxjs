@@ -26,10 +26,7 @@ Use the knowledge of observables to create a stopwatch component. The stopwatch 
 
 Use reactive programming to implement the stopwatch functionalities. You can use the `interval` function to create an observable that emits a number every second.
 
-<video controls>
-  <source src="Stopwatch.mp4" type="video/mp4" />
-</video>
-
+Link video: [Stopwatch](Stopwatch.mp4)
 
 ### Click Component
 
@@ -63,9 +60,7 @@ Below is a breakdown of how this component works:
 5. **Debounced Updates:**
    - Both the size and color of the box are updated after a 500ms delay following the last click. This prevents rapid updates and ensures smoother transitions.
 
-<video controls>
-  <source src="Resize.mp4" type="video/mp4" />
-</video>
+Link video: [ClickComponent](Resize.mp4)
 
 ### Search Component
 
@@ -96,6 +91,4 @@ The SearchComponent allows users to search for countries in real-time by typing 
 - The component automatically updates the view to display the list of matching countries.
 - The component automatically updates the view to display the list of matching countries.
 
-<video controls>
-  <source src="SearchDebounce.mp4" type="video/mp4" />
-</video>
+Link video: [Search Debounce](./SearchDebounce.mp4)
