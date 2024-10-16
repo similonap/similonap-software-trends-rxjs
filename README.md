@@ -12,9 +12,7 @@ Create a button per observable that subscribes to the observable when clicked. D
 As an additional challenge, figure out how to create a hot observable and subscribe to it. Make sure you understand the difference between hot and cold observables.
 
 
-<video controls>
-  <source src="Observables.mp4" type="video/mp4" />
-</video>
+Link video: [Observables](Observables.mp4)
 
 ## Stopwatch component
 
